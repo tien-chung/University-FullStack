@@ -46,6 +46,6 @@ public class DepartmentController {
             throw new DepartmentNotFoundException(id);
         }
         departmentRepository.deleteById(Math.toIntExact(id));
-        return "User with id " + id + " has been deleted successfully";
+        return "Department with id " + id + " has been deleted successfully";
     }
 }

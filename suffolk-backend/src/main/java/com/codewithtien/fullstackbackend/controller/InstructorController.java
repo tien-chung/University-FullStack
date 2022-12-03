@@ -47,7 +47,7 @@ public class InstructorController {
             throw new InstructorNotFoundException(id);
         }
         instructorRepository.deleteById(id);
-        return "User with id " + id + " has been deleted successfully";
+        return "Instructor with id " + id + " has been deleted successfully";
     }
 }
 
