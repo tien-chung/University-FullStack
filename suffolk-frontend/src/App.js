@@ -3,9 +3,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./layout/Navbar";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AddDepartment from "./departments/AddDepartment";
-import EditDepartment from "./departments/EditDepartment";
-import ViewDepartment from "./departments/ViewDepartment";
+import AddDepartment from "./Tables/departments/AddDepartment";
+import EditDepartment from "./Tables/departments/EditDepartment";
+import ViewDepartment from "./Tables/departments/ViewDepartment";
 
 function App() {
   return (
