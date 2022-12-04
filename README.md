@@ -25,4 +25,4 @@ This file can be find in the University.sql file
 2. Run the University.sql file (can be done on workbench or the command line) 
 3. Open your favorite editor for Java, I use IntelliJ and run the suffolk-backend
 4. Open another editor for ReactJS/JavaScript. I use Visual Studio Code
-5. Open the terminal on VSCode. `cd suffolk-frontend` and write the command `run npm` to start reactJS
+5. Open the terminal on VSCode. `cd suffolk-frontend` and write the command `npm start` to start reactJS
