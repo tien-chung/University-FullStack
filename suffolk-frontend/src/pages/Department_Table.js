@@ -1,7 +1,7 @@
 // rfc
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function Department_Table() {
   const [departments, setDepartments] = useState([]);

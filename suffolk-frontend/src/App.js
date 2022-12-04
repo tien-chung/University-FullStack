@@ -30,6 +30,7 @@ function App() {
             path="/addDepartment"
             element={<AddDepartment />}
           ></Route>
+
           <Route
             exact
             path="/editDepartment/:id"
@@ -47,6 +48,7 @@ function App() {
             path="/addInstructor"
             element={<AddInstructor />}
           ></Route>
+
           <Route
             exact
             path="/viewInstructor/:id"
