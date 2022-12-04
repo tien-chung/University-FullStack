@@ -8,6 +8,7 @@ import EditDepartment from "./Tables/departments/EditDepartment";
 import ViewDepartment from "./Tables/departments/ViewDepartment";
 import AddInstructor from "./Tables/instructors/AddInstructor";
 import AddStudent from "./Tables/students/AddStudent";
+import AddCourse from "./Tables/courses/AddCourse";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
           ></Route>
 
           <Route exact path="/addStudent" element={<AddStudent />}></Route>
+
+          <Route exact path="/addCourse" element={<AddCourse />}></Route>
         </Routes>
       </Router>
     </div>
