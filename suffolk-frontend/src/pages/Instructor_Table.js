@@ -25,13 +25,14 @@ export default function Instructor_Table() {
   return (
     <div className="container">
       <div className="py-4">
-        <table class="table border shadow">
+        <table class="table border shadow align-self-center">
           <thead>
             <tr>
               <th scope="col">Id</th>
               <th scope="col">Instructor Name</th>
               <th scope="col">Department Id</th>
               <th scope="col">Instructor Email</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -45,21 +46,21 @@ export default function Instructor_Table() {
                 <td>{instructor.instructor_email}</td>
                 <td>
                   <Link
-                    className="btn btn-primary mx-2"
-                    to={`/viewInstructor/${instructor.id}`}
+                    className="btn btn-info mx-2"
+                    to={`/viewInstructor/${instructor.instructor_id}`}
                   >
                     {" "}
                     View
                   </Link>
                   <Link
                     className="btn btn-primary mx-2"
-                    to={`/editInstructor/${instructor.id}`}
+                    to={`/editInstructor/${instructor.instructor_id}`}
                   >
                     Edit
                   </Link>
                   <button
                     className="btn btn-danger mx-2"
-                    onClick={() => deleteInstructor(instructor.id)}
+                    onClick={() => deleteInstructor(instructor.instructor_id)}
                   >
                     Delete
                   </button>

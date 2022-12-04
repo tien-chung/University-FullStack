@@ -31,6 +31,7 @@ export default function Department_Table() {
               <th scope="col">Id</th>
               <th scope="col">Department Name</th>
               <th scope="col">Location</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -43,7 +44,7 @@ export default function Department_Table() {
                 <td>{department.location}</td>
                 <td>
                   <Link
-                    className="btn btn-primary mx-2"
+                    className="btn btn-info mx-2"
                     to={`/viewDepartment/${department.id}`}
                   >
                     {" "}

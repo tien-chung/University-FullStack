@@ -32,8 +32,9 @@ export default function Student_Table() {
               <th scope="col">Advisor Id</th>
               <th scope="col">Student Name</th>
               <th scope="col">Student Email</th>
-              <th scrope="col">Total Credits</th>
-              <th scrope="col">Major</th>
+              <th scope="col">Total Credits</th>
+              <th scope="col">Major</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -49,21 +50,21 @@ export default function Student_Table() {
                 <td>{student.major}</td>
                 <td>
                   <Link
-                    className="btn btn-primary mx-2"
-                    to={`/viewStudent/${student.id}`}
+                    className="btn btn-info mx-2"
+                    to={`/viewStudent/${student.student_id}`}
                   >
                     {" "}
                     View
                   </Link>
                   <Link
                     className="btn btn-primary mx-2"
-                    to={`/editStudent/${student.id}`}
+                    to={`/editStudent/${student.student_id}`}
                   >
                     Edit
                   </Link>
                   <button
                     className="btn btn-danger mx-2"
-                    onClick={() => deleteStudent(student.id)}
+                    onClick={() => deleteStudent(student.student_id)}
                   >
                     Delete
                   </button>

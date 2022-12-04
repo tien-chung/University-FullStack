@@ -32,8 +32,9 @@ export default function Course_Table() {
               <th scope="col">Title</th>
               <th scope="col">Credits</th>
               <th scope="col">Course Department</th>
-              <th scrope="col">Department Id</th>
-              <th scrope="col">Professor</th>
+              <th scope="col">Department Id</th>
+              <th scope="col">Professor</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -49,21 +50,21 @@ export default function Course_Table() {
                 <td>{course.professor}</td>
                 <td>
                   <Link
-                    className="btn btn-primary mx-2"
-                    to={`/viewCourse/${course.id}`}
+                    className="btn btn-info mx-2"
+                    to={`/viewCourse/${course.course_id}`}
                   >
                     {" "}
                     View
                   </Link>
                   <Link
                     className="btn btn-primary mx-2"
-                    to={`/editCourse/${course.id}`}
+                    to={`/editCourse/${course.course_id}`}
                   >
                     Edit
                   </Link>
                   <button
                     className="btn btn-danger mx-2"
-                    onClick={() => deleteCourse(course.id)}
+                    onClick={() => deleteCourse(course.course_id)}
                   >
                     Delete
                   </button>
