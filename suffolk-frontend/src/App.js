@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AddDepartment from "./Tables/departments/AddDepartment";
 import EditDepartment from "./Tables/departments/EditDepartment";
 import ViewDepartment from "./Tables/departments/ViewDepartment";
+import AddInstructor from "./Tables/instructors/AddInstructor";
+import AddStudent from "./Tables/students/AddStudent";
 
 function App() {
   return (
@@ -29,6 +31,14 @@ function App() {
             path="/viewDepartment/:id"
             element={<ViewDepartment />}
           ></Route>
+
+          <Route
+            exact
+            path="/addInstructor"
+            element={<AddInstructor />}
+          ></Route>
+
+          <Route exact path="/addStudent" element={<AddStudent />}></Route>
         </Routes>
       </Router>
     </div>

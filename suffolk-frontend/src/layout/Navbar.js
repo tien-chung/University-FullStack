@@ -14,15 +14,15 @@ export default function Navbar() {
             Add Department
           </Link>
 
-          <Link className="navbar-item link-info" to="/adddepartment">
+          <Link className="navbar-item link-info" to="/addinstructor">
             Add Instructor
           </Link>
 
-          <Link className="navbar-item link-info" to="/adddepartment">
+          <Link className="navbar-item link-info" to="/addstudent">
             Add Student
           </Link>
 
-          <Link className="navbar-item link-info" to="/adddepartment">
+          <Link className="navbar-item link-info" to="/addcourse">
             Add Course
           </Link>
         </div>
