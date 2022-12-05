@@ -12,7 +12,7 @@ I implemented the back end by using **Java Spring Boot**
 
 Here is the link to [Spring Initializr](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.0.0&packaging=jar&jvmVersion=11&groupId=com.codewithtien&artifactId=University%20Full%20Stack&name=University%20Full%20Stack&description=Demo%20project%20for%20Spring%20Boot&packageName=com.codewithtien.University%20Full%20Stack&dependencies=mysql,web,devtools)
 
-You can find the code for the this in the suffolk-backend folder
+You can find the code for this in the suffolk-backend folder
 
 ## MySQL 
 This file can be find in the University.sql file
