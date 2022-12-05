@@ -1,9 +1,9 @@
 /* 
 	Databse Project: university DBMS
-    - department(department_name, location)
-    - instructor(instructor_id, instructor_name, indtructor_department, instructor_email)
-    - student(student_id, advisor_id, student_name, student_email, major)
-    - course(course_id, title, credits, course_department, professor)
+    - department(id, department_name, location)
+    - instructor(instructor_id, instructor_name, dept_id, instructor_email)
+    - student(student_id, advisor_id, student_name, student_email, total_credit, major)
+    - course(course_id, title, credits, course_department, dep_id professor)
 */
 
 DROP DATABASE IF EXISTS university;
