@@ -80,45 +80,46 @@ INSERT INTO department (department_name, location) VALUES
  
  Select * from department;
 
+-- Random Instructor names
  INSERT INTO instructor (instructor_name, dept_id, instructor_email) VALUES
- ("John Xu", 1, "zxu@suffolk.edu"),
- ("Kayla Schwartz", 2, "kschwartz@suffolk.edu"), 
- ("Andrew Azer", 3, "aazer@suffolk.edu"),
- ("Peter Burn", 4, "pburn@suffolk.edu"), 
- ("Melanie Berkmen", 5, "mberkmen@suffolk.edu"),
- ("Sarah Tang", 6, "ltang7@suffolk.edu"),
- ("Jon Lee", 7, "jdlee@suffolk.edu"), 
- ("Natalia Beliaeva", 8, "nbeliaeva@suffolk.edu"), 
- ("Charles Cramer", 9, "ccramer@suffolk.edu"),
- ("Pelin Bicen", 10, "pbicen@suffolk.edu");
+ ("Ben Copeland", 1, "Ben@gmail.com"),
+ ("Joseph Reynolds", 2, "Joseph@gmail.com"), 
+ ("Christine Terry", 3, "Christine@gmail.com"),
+ ("Horace Johnson", 4, "Horace@gmail.com"), 
+ ("Kelley Coleman", 5, "Kelley@gmail.com"),
+ ("Leland Santos", 6, "Leland@gmail.com"),
+ ("Glenda Vaughn", 7, "Glenda@gmail.com"), 
+ ("Jim Rui", 8, "Jim@gmail.com"), 
+ ("John Smith", 9, "John@gmail.com"),
+ ("Kristen Carroll", 10, "Kristen@gmail.com");
  
  SELECT * from instructor;
 
-
+-- Random Student names
 INSERT INTO student (advisor_id, student_name, student_email, total_credit, major) VALUES
-(1, "Tien Chung", "tchung@suffolk.edu", 120, "Mathematics & Computer Science"),
-(2, "Samantha Houston", "shouston@suffolk.edu", 16, "Art"),
-(3, "Jaylen Townsend", "jtownsend@suffolk.edu", 100, "Accounting & Business Law"),
-(4, "Selena Hunt", "shunt@suffolk.edu", 32, "Biology"),
-(5, "TheMinh Luong", "tluong@suffolk.edu", 90, "Chemistry & Biochemistry"),
-(6, "Kiley Petty", "kpetty@suffolk.edu", 0, "Economics"),
-(7, "Cyrus Chen", "cchen@suffolk.edu", 45, "English"),
-(8, "Melissa Hebert", "mhebert@suffolk.edu", 16, "Finance"), 
-(9, "Matteo Mcintosh", "mmcintosh@suffolk.edu", 100, "History, Language & Global Culture"), 
-(10, "Evie Schroeder", "eschroeder@suffolk.edu", 0, "Marketing") ;
+(1, "Tien Tran", "ttran@gmail.com", 120, "Mathematics & Computer Science"),
+(2, "Samantha Houston", "shouston@gmail.com", 16, "Art"),
+(3, "Jaylen Townsend", "jtownsend@gmail.com", 100, "Accounting & Business Law"),
+(4, "Selena Hunt", "shunt@gmail.com", 32, "Biology"),
+(5, "TheMinh Pham", "tpham@gmail.com", 90, "Chemistry & Biochemistry"),
+(6, "Kiley Petty", "kpetty@gmail.com", 0, "Economics"),
+(7, "Cyrus Chen", "cchen@gmail.com", 45, "English"),
+(8, "Melissa Hebert", "mhebert@gmail.com", 16, "Finance"), 
+(9, "Matteo Mcintosh", "mmcintosh@gmail.com", 100, "History, Language & Global Culture"), 
+(10, "Evie Schroeder", "eschroeder@gmail.com", 0, "Marketing") ;
 
 SELECT * from student;
 
 INSERT INTO course (title, credits, course_department, dep_id, professor) VALUES 
-("Object Oriented Programming", 4, "Mathematics & Computer Science", 1, "John Xu"), 
-("Typography II", 3, "Art", 2, "Kayla Schwartz"), 
-("Acct for Decision Making II", 4, "Accounting & Business Law", 3, "Andrew Azer"),
-("Biology's Big Questions", 4, "Biology", 4, "Peter Burn"), 
-("Biochemistry II", 3, "Chemistry & Biochemistry", 5, "Melanie Berkmen"),
-("Applied Statistics", 4, "Economics",6, "Sarah Tang"),
-("First-Year Writing II", 4, "English", 7,"Jon Lee"), 
-("Economic Analysis for Mgr", 4, "Finance", 8,"Natalia Beliaeva"), 
-("Art History II", 4, "History, Language & Global Culture", 9,"Charles Cramer"),
-("Advanced Marketing Analytics", 4, "Marketing", 10, "Pelin Bicen");
+("Object Oriented Programming", 4, "Mathematics & Computer Science", 1, "Ben Copeland"), 
+("Typography II", 3, "Art", 2, "Joseph Reynolds"), 
+("Acct for Decision Making II", 4, "Accounting & Business Law", 3, "Christine Terry"),
+("Biology's Big Questions", 4, "Biology", 4, "Horace Johnson"), 
+("Biochemistry II", 3, "Chemistry & Biochemistry", 5, "Kelley Coleman"),
+("Applied Statistics", 4, "Economics",6, "Leland Santos"),
+("First-Year Writing II", 4, "English", 7,"Glenda Vaughn"), 
+("Economic Analysis for Mgr", 4, "Finance", 8,"Jim Rui"), 
+("Art History II", 4, "History, Language & Global Culture", 9,"John Smith"),
+("Advanced Marketing Analytics", 4, "Marketing", 10, "Kristen Carroll");
 
 SELECT * FROM course;
